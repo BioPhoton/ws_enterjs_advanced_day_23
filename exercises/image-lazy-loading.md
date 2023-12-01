@@ -65,3 +65,40 @@ And then set the loading and priority attributes in the `movie-card.component.ht
 Great now verify that the loading eager and fetch priority high are being added to only the two first images
 
 ![img.png](images/image-loading-optimization/loading-image-prio-loading.png)
+
+## Responsive images with srcset and sizes
+
+As different screens need different resolutions we can make use of the provided image formats of our image server.
+
+the provided formats are:
+- 150w
+- 185w
+- 342w
+- 500w
+- 780w
+
+this values will  be used as sizes.
+
+```html
+@TODO
+```
+
+the last missing information is the logic that determines when to use which set.
+
+let's add src set and see what happens:
+
+```html
+sizes:"(min-width: 901px) 30vw, 70vw"
+```
+
+Use the debugging script to track the browser changes:
+
+https://github.com/push-based/awesome-web-performance-snippets/tree/main/snippets/check-image-srcset
+
+Now use the following values for sizes:
+
+```html
+sizes:"(min-width: 901px) 15vw, 42vw"
+```
+
+Debug it again and compare the results.
