@@ -30,6 +30,7 @@ npm run start
 ## Workshop Information
 
 [General Info](https://docs.google.com/document/d/1vDoBxysZTNXPlzAT8aWD61jrG9KxMbJ_YW9E56_xzlY)
+
 [Slides](https://drive.google.com/drive/folders/1DuOk0mpPJImNjnE1f22WxIONrdRcpNHi)
 
 ## Exercises
