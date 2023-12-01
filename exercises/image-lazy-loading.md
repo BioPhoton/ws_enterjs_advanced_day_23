@@ -30,7 +30,7 @@ Now verify that the images where lazy loaded by checking how many images where i
 
 ![img.png](./images/image-loading-optimization/lazy-image-loading-state.png)
 
-We can improve this even more by telling the browser which images it should priority. Add loading eager and priority high to the 2 initial images.
+We can improve this even more by telling the browser which images should load with priority. Add loading eager and priority high to the 2 initial images.
 To do this you can pass the index to the movie card and set the loading attribute to eager on te first to images as well was the fetchpriority to high.
 
 Start by passing the index to from the ngFor to the movie card
